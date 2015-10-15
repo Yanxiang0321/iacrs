@@ -1,0 +1,67 @@
+<%@ page language="java" import="java.util.*" pageEncoding="US-ASCII"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href="css/style.css" rel="Stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="background">
+  <div id="page">
+    <div class="header">
+      <div class="footer">
+        <div class="body">
+          <div id="sidebar"> <a href="index.html"><img id="logo" src="css/img/logoo.png" with="154" height="74" alt="" title=""/></a>
+            <ul class="navigation">
+              <li><a  href="index.html">HOME</a></li>
+              <li class="active"><a href="about" >ABOUT</a></li>
+              <li class="last"><a href="contact">CONTACT</a></li>
+            </ul>
+            <div class="connect"> <a href="#" class="facebook">&nbsp;</a> <a href="#" class="twitter">&nbsp;</a> <a href="http://www.youtube.com/fwtemplates" class="vimeo">&nbsp;</a> </div>
+            <div class="footenote"> <span>&copy; Copyright &copy; 2014.</span> <span><a href="index.html">Yanxiang Zhu</a> all rights reserved</span> </div>
+          </div>
+          <div id="content">
+            <div class="content">
+              <ul>
+                <li>
+                  <h2><a href="index.html">Intelligent Automatic Car Rental system</a></h2>
+                  <p> 
+                     The system is a final project for Web Tool Design. I design the system as an special management system. It not only has the basic functions as a normal rental system, but also connect with Google Map. The advanced function will make the system more powerful and useful in the future.
+                  </p>
+                </li>
+                <li>
+                  <h2><a href="about">Use Of The System</a></h2>
+                  <p>
+                      Noraml Users please register to the system at first. You must input the basic information of Username, Password, Name, ID number, telephone, email and address. The email must be a formula like this XXX@XX.COM. And you can only input number in the telephone and ID cards.
+                  </p>
+                </li>
+                <li>
+                  <h2><a href="about">Renting Procedure</a></h2>
+                  <p>
+                      Registered user can login to the system to browser the car list. The list will display the information of the car (model, ID, fees and so on). One can only rent only one car at the time.
+                  </p>
+                </li>
+                <li>
+                  <h2><a href="about">Cars</a></h2>
+                  <p>
+                      The cars are not real and only for educational use. CoE, Northeastern University
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shadow"> </div>
+  </div>
+</div>
+</body>
+</html>
